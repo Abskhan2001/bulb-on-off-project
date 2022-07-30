@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="contanier">
+    <img id="lightimg" src="https://c1.wallpaperflare.com/preview/825/807/809/bulb-electricity-energy-glass.jpg">
+<button onclick="light(1)">ON</button>
+<button  onclick="light(0)">OFF</button>
+   </div>
+<script>
+    let pic="";
+function light(value){
+    if(value===0){
+       pic="https://c1.wallpaperflare.com/preview/825/807/809/bulb-electricity-energy-glass.jpg";
+    }
+    else{
+        pic="https://cdn.mos.cms.futurecdn.net/HaPnm6P7TZhPQGGUxtDjAg-1920-80.jpg.webp";
+    }
+    document.getElementById("lightimg").src=pic;
+}
+</script>
+</body>
+</html>
