@@ -1,6 +1,7 @@
 img{
     height: 750px;
     width: 600px;
+    background-color: antiquewhite;
 }
 button{
     border: 2px solid black;
