@@ -1,7 +1,10 @@
+body{
+    background-color: black;
+}
 img{
     height: 750px;
     width: 600px;
-    background-color: black;
+
 }
 button{
     border: 2px solid black;
